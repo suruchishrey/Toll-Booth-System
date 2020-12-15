@@ -7,16 +7,16 @@ package com.mycompany.tollboothsystem;
 public class TruckType_2 implements Truck{
     private BarCode barcode;
     private Bill bill;
-    private static int truckid=1;
+    private static int id=1;
     
     public TruckType_2()
     {}
     
     public TruckType_2(double weight,int axles)
     {
-        truckid+=2;
+        id+=2;
         this.bill=new Bill(weight);
-        this.barcode=new BarCode(axles,truckid);
+        this.barcode=new BarCode(axles,id);
     }
     
     public void print()

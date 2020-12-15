@@ -78,7 +78,7 @@ public class NagpurTollBooth implements Tollbooth {
     public void storeReceipt()
     {
         //Path to store the receipt details 
-        Path path=Paths.get("E:\\5th SEM\\IOOM","textfile.txt");
+        Path path=Paths.get("E:\\5th SEM\\IOOM","TruckReceipts.txt");
         Iterator i=ReceiptData.iterator();
         while (i.hasNext()) 
         {
@@ -97,7 +97,7 @@ public class NagpurTollBooth implements Tollbooth {
     public void datewiseCollection(String d1,String d2)
     {
         try {
-            BufferedReader br=new BufferedReader(new FileReader("E:\\5th SEM\\IOOM\\textfile.txt"));
+            BufferedReader br=new BufferedReader(new FileReader("E:\\5th SEM\\IOOM\\TruckReceipts.txt"));
             String content=br.readLine();
             while(content!=null)
             {

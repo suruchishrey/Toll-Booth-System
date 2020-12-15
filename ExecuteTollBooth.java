@@ -36,7 +36,7 @@ public class ExecuteTollBooth{
                 int trucktype=Integer.parseInt(str[1]);
                 double weight=Double.parseDouble(str[2]);
                 int axles=Integer.parseInt(str[3]);
-                Thread.sleep(time);
+                Thread.sleep(time);                 //wait for arrival
                 if(trucktype==1)
                 {
                    TruckType_1 truck1=new TruckType_1(weight,axles);

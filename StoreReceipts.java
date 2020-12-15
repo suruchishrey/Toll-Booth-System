@@ -22,6 +22,7 @@ public class StoreReceipts extends Thread{
     @Override
     public void run()
     {
+        //Timer to store the receipts after every 10 secs
         Timer timer=new Timer();
         timer.schedule(
           new java.util.TimerTask(){

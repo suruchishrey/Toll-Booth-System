@@ -5,7 +5,7 @@
 package com.mycompany.tollboothsystem;
 
 public class Bill {
-    final private double weight;
+    private double weight;
     
     public Bill()
     {
