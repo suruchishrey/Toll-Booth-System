@@ -2,7 +2,6 @@
  * Author - Suruchi Shrey
  * Enrollment no.- BT18CSE014
  */
-package com.mycompany.tollboothsystem;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

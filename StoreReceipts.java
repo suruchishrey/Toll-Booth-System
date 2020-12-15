@@ -6,7 +6,6 @@
     This is a class which extends the Thread class,this is responsible for collection of receipts and storing them into 
     a file at certain intervals.
 */
-package com.mycompany.tollboothsystem;
 
 import java.util.Timer;
 
@@ -28,7 +27,7 @@ public class StoreReceipts extends Thread{
           new java.util.TimerTask(){
             @Override
             public void run() {
-                if(System.currentTimeMillis()-t0>60*3*1000){
+                if(System.currentTimeMillis()-t0>60*6*1000){
                     System.out.println("Storing done!");
                     cancel();
                 }

@@ -2,8 +2,6 @@
  * Author - Suruchi Shrey
  * Enrollment no.- BT18CSE014
  */
-package com.mycompany.tollboothsystem;
-
 
 public class BarCode {
     final private int axles;

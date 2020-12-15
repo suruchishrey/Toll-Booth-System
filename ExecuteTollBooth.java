@@ -4,8 +4,6 @@
  */
 //Driver program
 
-package com.mycompany.tollboothsystem;
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;

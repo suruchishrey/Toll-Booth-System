@@ -6,7 +6,6 @@
 /*
     This is a class which implements Tollbooth interface
 */
-package com.mycompany.tollboothsystem;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
